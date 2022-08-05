@@ -1,0 +1,19 @@
+table{
+    border-collapse:collapse;
+}
+
+table tr td{
+    padding:8px 10px;
+  
+}
+table tr th{
+    padding:8px 10px;
+}
+
+ 
+table tr:nth-child(odd){
+    background-color: coral;
+}
+table tr:nth-child(1){
+    background-color: green;
+}
