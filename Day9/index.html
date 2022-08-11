@@ -1,59 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day9</title>
     <style>
-         ol{
+        ol {
             background-color: black;
             padding: 10px 0px;
-         }
-        ol li{
+        }
+
+        ol li {
             display: inline-block;
             padding: 0px 8px;
             color: white;
         }
 
+        .outer_div {
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            position:relative;
+        }
+
+        .inner_div {
+            height:100px;
+            width:100px;
+            background-color: green;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%,-50%);
+             
+        }
+
+        .tri{
+            height:0;
+            width:0;
+            border-bottom:50px solid black;
+            border-left:25px solid transparent;
+            border-right:25px solid transparent;
+        }
     </style>
 </head>
 <!--list:
       ordered list
       unordered list
       description list
--->   
+-->
 
 <!--order list-->
-    <ol  start="50" style="list-style-type:none">
-        <li>HTML 5</li>   
-        <li>CSS 3</li>
-        <li>JavaScript</li>
-    </ol>
+<ol start="50" style="list-style-type:none">
+    <li>HTML 5</li>
+    <li>CSS 3</li>
+    <li>JavaScript</li>
+</ol>
 
-    <!--Unorder list-->
-    <ul style="list-style-type:none">
-        <li>HTML 5</li>
-        <li>CSS 3</li>
-        <li>JavaScript</li>
-    </ul>
+<!--Unorder list-->
+<ul style="list-style-type:none">
+    <li>HTML 5</li>
+    <li>CSS 3</li>
+    <li>JavaScript</li>
+</ul>
 
-    <!--description list-->
-    <dl>
-        <dt>Books</dt>
-        <dd>Multiple books are available in our libaray</dd>
+<!--description list-->
+<dl>
+    <dt>Books</dt>
+    <dd>Multiple books are available in our libaray</dd>
 
-        <dt>Mobile</dt>
-        <dd>now a days all the mobiles are having the %g support</dd>
-    </dl>
+    <dt>Mobile</dt>
+    <dd>now a days all the mobiles are having the %g support</dd>
+</dl>
 
-    <p>Books</p>
-   <p> &emsp; &emsp; Multiple books are available in our libaray</p>
+<p>Books</p>
+<p> &emsp; &emsp; Multiple books are available in our libaray</p>
+
+
+<div class="outer_div">
+    <div class="inner_div">
+
+    </div>
+</div>
+
+
+<div class="tri">
+
+</div>
 
 <!---&emsp;  html entities
-     &emnb;
-     &emsp;
+     &ensp;
+     &nbsp;
 -->
 
 </body>
+
 </html>
