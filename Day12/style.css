@@ -1,0 +1,21 @@
+ 
+ul{
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    width:40%;
+    
+}
+
+ul li{
+     
+    list-style-type:none;
+}
+ul li a{
+    text-decoration:none;
+}
+
+.nav_cont_1{
+    display: flex;
+    justify-content: space-between;
+}
