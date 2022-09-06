@@ -22,8 +22,11 @@ ul{
 ul li{
     margin: 0px 16px;
     list-style-type:none;
-    color:white;
     font-size: 25px;
+}
+ul li a{
+    text-decoration:none;
+    color:white;
 }
 
 .header_cont h4{
@@ -124,6 +127,22 @@ ul li{
     width:150px;
     margin:20px;
     border-radius:8px;
+}
+
+
+/* 
+mobile responsive */
+
+@media (max-width:800px){
+    .img_cont img {
+        width: 131px;
+    }
+    .role div h4 {
+        font-size: 23px;
+    }
+    .img_cont {
+        width: 60%;
+    }
 }
 
  
