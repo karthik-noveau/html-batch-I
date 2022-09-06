@@ -121,6 +121,7 @@ ul li a{
 .s_img_cont{
     margin-top:30px;
     display:flex;
+    flex-wrap:wrap;
     justify-content:center;
 }
 .s_img_cont img{
@@ -128,7 +129,29 @@ ul li a{
     margin:20px;
     border-radius:8px;
 }
+ 
 
+/* contact */
+.contact_a table tr td a{
+    text-decoration:none;
+
+}
+
+/* menubar */
+.menubar{
+    display: none;
+}
+.menubar button{
+    color:white;
+    padding:7px 13px;
+    margin-right:8px;
+    border-radius: 8px;
+
+}
+.menubar button .fa-bars{
+    color: black;
+    font-size:35px;
+}
 
 /* 
 mobile responsive */
@@ -143,6 +166,43 @@ mobile responsive */
     .img_cont {
         width: 60%;
     }
+    .abt_cont h1 {
+        padding: 5px 10px;
+        margin-left: 5px;
+        font-size: 22px;
+    }
+    .skills_cont h1 {
+        padding: 5px 10px;
+        margin-left: 5px;
+        font-size: 22px;
+    }
+    .tbl_cont table td{
+        padding:10px;
+        font-size:16px;
+    }
+    .tbl_cont table {
+        width: 91%;
+    }
+    .tbl_cont {
+        margin-top: 27px;
+    }
+    .s_img_cont img {
+        width: 107px;
+        margin: 0px;
+        border-radius: 8px;
+    }
+    .contact_a table{
+        width:80% !important;
+    }
+
+    /* header */
+    .header_cont ul{
+        display:none;
+    }
+    .menubar{
+        display: block;
+    }
+    
 }
 
  
