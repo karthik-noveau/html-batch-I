@@ -4,41 +4,67 @@
 //confirm("Are you leave This page");
 //prompt("Enter your value");
 
- 
-if(true){
+
+if (true) {
     let b = 20;
-    b=1000;
-    console.log("This is block scope "+ b);
+    b=20
+    b = 1000;
+    console.log("This is block scope " + b);
 }
- 
+var c = 10;
+var c= 20;
+let d= 20;
+    
+
 // integer
 // String
 // Boolean
-// null
+// null-objrct
 // undefined
-// Symbol
+// Symbol--object
 
 // array
 
 // object
 
 
-var a=10; //integer
-var b="10"; // string
+var a = 10; //integer
+var b = "10"; // string
 
-console.log(a==b);
- 
+console.log(a == b);
+
 undefined
-var a=10; //integer
-var b="10"; // string
+var a = 10; //integer
+var b = "10"; // string
 
-console.log(a===b);
+console.log(a === b);
 
 // named function
-function myFunc()
-{
+//Anonmous function
+// Arrow Function - ES6 feature
+// immediatley innovoked function ( IIF) 
+const myF =function myFunc() {
     let a = 100;
-    console.log("This is function "+ a);
+    console.log("This is function " + a);
 }
-myFunc();
- 
+myF();
+
+(
+    ()=> console.log("This is immmediately innnoked function ")
+)()
+
+// Events
+//      onclick ()
+//      onChange ()
+//      onmousover ()
+//      onfouus ()
+//      onmousedown ()
+
+function buttonHandler(){
+    document.getElementById("txt").innerHTML="Hai i'm from button";
+    document.getElementById("twt").style.color="red"
+    
+    confirm("Are you sure to update the content");
+}   
+
+

@@ -36,7 +36,12 @@ ul li a{
 }
 
       /* image and name */
-
+.img_cont img:hover{
+   
+    scale:1.1;
+    cursor:pointer;
+    transition:1s;
+}
 .img_cont {
     display: flex;
     justify-content:space-between;
@@ -60,6 +65,10 @@ ul li a{
 .role div h4{
     margin-bottom:8px;
     font-size:35px;
+}
+.role div h4:hover{
+    font-size:55px;
+    transition:1s;
 }
 .img_main_cont{
     display:flex;
@@ -107,6 +116,7 @@ ul li a{
 
 
 /* skills */
+ 
 .skills_cont{
     margin-top:30px;
 }
@@ -206,3 +216,12 @@ mobile responsive */
 }
 
  
+#demo img{
+    position:fixed;
+    bottom:10px;
+    right:10px;   
+}
+
+ 
+
+
