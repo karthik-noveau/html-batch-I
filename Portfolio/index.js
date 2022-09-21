@@ -7,14 +7,14 @@
 
 if (true) {
     let b = 20;
-    b=20
+    b = 20
     b = 1000;
     console.log("This is block scope " + b);
 }
 var c = 10;
-var c= 20;
-let d= 20;
-    
+var c = 20;
+let d = 20;
+
 
 // integer
 // String
@@ -43,15 +43,6 @@ console.log(a === b);
 //Anonmous function
 // Arrow Function - ES6 feature
 // immediatley innovoked function ( IIF) 
-const myF =function myFunc() {
-    let a = 100;
-    console.log("This is function " + a);
-}
-myF();
-
-(
-    ()=> console.log("This is immmediately innnoked function ")
-)()
 
 // Events
 //      onclick ()
@@ -60,11 +51,20 @@ myF();
 //      onfouus ()
 //      onmousedown ()
 
-function buttonHandler(){
-    document.getElementById("txt").innerHTML="Hai i'm from button";
-    document.getElementById("twt").style.color="red"
-    
-    confirm("Are you sure to update the content");
-}   
+function btnClicked(){
+    if(document.getElementById("mb_items").style.display !== "none"){
+        document.getElementById("mb_items").style.display = "none";
+        console.log("if condtion executed")
+    }
+    else{
+        document.getElementById("mb_items").style.display = "block";
+        console.log("else part executed")
+    }
+}
+ 
+
+
+
+
 
 

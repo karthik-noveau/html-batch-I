@@ -2,6 +2,7 @@
     padding: 0;
     margin:0;
     
+    
 }
 
 /* header */
@@ -161,7 +162,15 @@ ul li a{
 .menubar button .fa-bars{
     color: black;
     font-size:35px;
+    cursor: pointer;
 }
+
+#demo img{
+    position:fixed;
+    bottom:10px;
+    right:10px;   
+}
+
 
 /* 
 mobile responsive */
@@ -206,21 +215,37 @@ mobile responsive */
     }
 
     /* header */
-    .header_cont ul{
+    /* .header_cont ul{
         display:none;
-    }
+    } */
     .menubar{
         display: block;
+       
+    }
+
+
+    /* mobile view items */
+    #mb_items{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        position:absolute;
+        top:80px;
+        background-color:black;
+        padding: 20px 0px;
+    }
+    #mb_items li a{
+        color:white;
+       
+    }
+    #mb_items li{
+        padding:12px 0px;
     }
     
 }
 
  
-#demo img{
-    position:fixed;
-    bottom:10px;
-    right:10px;   
-}
+
 
  
 
