@@ -1,3 +1,42 @@
 h1{
     text-align:center;
 }
+.form_cont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size:19px;
+}
+
+input[type=text]{
+    padding: 5px 5px;
+    border-radius:5px;
+    border:1px solid blue;
+}
+
+select{
+    padding:5px 8px;
+    border-radius:5px;
+    border: 1px solid blue;
+}
+
+input[type=date]{
+    padding:3px; 
+    border-radius: 5px;
+    border:1px soid blue;
+
+}
+input[type=submit]{
+    width:100%;
+    padding:6px 0px;
+    font-size:19px;
+    border-radius:5px;
+    border:1px solid green;
+    background-color:green;
+    color:white;
+}
+input, select{
+    margin-top:20px;
+
+    
+}
